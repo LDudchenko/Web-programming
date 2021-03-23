@@ -1,0 +1,661 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    color: #000;
+    background: #FFFCEA;
+  }
+  h1 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+  }
+
+  h2{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    text-align: center;
+    letter-spacing: -0.025em;
+  }
+  p {
+    font-family: PT Sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.005em;
+  }
+
+  .boldText {
+    font-weight: 700;
+  }
+
+  .container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+  }
+
+  button {
+    border: none;
+    overflow: none;
+    width: 485px;
+    height: 71px;
+    background: #9C86D5;
+    border-radius: 100px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 28px;
+    display: block;
+    margin: 40px auto 60px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.5s linear;
+  }
+
+  .thirdBlock img{
+    display: block;
+    transition: 0.5s linear;
+  }
+
+  .thirdBlock img:hover{
+    transform: scale(1.1);
+  }
+
+  .fifthBlock button:hover, .thirdBlock button:hover{
+    background: #8c71d1;
+  }
+
+  header {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+  }
+  header nav {
+    width: 49.5%;
+  }
+  header nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  header nav ul #first {
+    margin-left: 2.9%;
+  }
+  header nav a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  header nav a {
+    text-decoration: none;
+    color: #000;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 1.5px;
+    transition: background-size 0.8s;
+  }
+  
+  header nav a:hover {
+    background-size: 100% 1.5px;
+  }
+
+ header .phone{
+  display: flex;
+  width: 15%;
+}
+
+header .phone img, header .logo img {
+  max-width: 100%;
+  max-height: auto;
+  display: inline;
+}
+  header .phone #phone {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  
+.menu-open{
+  background: none;
+  border: none;
+  width: auto;
+  height: 24px;
+  display: none;
+  transition: 0.5s;
+  z-index: 1;
+  margin: 0;
+}
+
+header .logo{
+  z-index: 1;
+  width: 16.6%;
+}
+
+header .show-menu{
+  display: block;
+}
+
+header .show-menu ul {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #FFFCEA;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+
+header .show-menu ul li{
+  font-size: 34px;
+  margin-bottom: 20px;
+}
+
+ header .show-menu ul li:last-child{
+  margin: 0 ;
+}
+
+.examples img, .fourthBlock img{
+    display: block;
+}
+
+  .firstBlockText{
+      margin: 5.1% auto;
+      width: 70%;
+      text-align: center;
+  }
+
+  .firstBlockText h1{
+    margin-bottom:1.82%;
+}
+
+.secondBlock .container{
+    background: #E1C189;
+    padding-top: 2.5%;
+    padding-bottom: 4.7%;
+    text-align: center;
+}
+
+.secondBlockText{
+    width:54%;
+    margin: 0 auto;
+}
+
+.secondBlockText h2{
+    margin-bottom: 4.1%;
+}
+
+.thirdBlock h2{
+    margin: 4.2% auto 3.4%;
+}
+
+.examples{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourthBlock .container{
+    background: #E1C189;
+    padding-top: 2em;
+    padding-bottom: 4.7%;
+    text-align: center;
+}
+
+.fourthBlock h2{
+    margin-bottom: 3.85%;
+}
+
+.fifthBlock{
+    padding-top: 3.4%;
+}
+
+.step1and2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 3%;
+}
+
+.step3and4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.step{
+    display:flex;
+    align-items: center;
+    width: 40%;
+    text-align: left;
+}
+
+.step img{
+  height: 70px;
+}
+
+.step p{
+    margin-left: 30px;
+}
+
+.step2, .step4{
+    width: 30%;
+}
+
+.firstInput, .secondInput, .thirdInput, .fourthInput{
+    width: 48.4%;
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 45px;
+    outline: none;
+}
+
+form{
+    width: 79.5%;
+    margin: 3.3% auto 0;
+}
+
+.fifthBlockFirst, .fifthBlockSecond{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fifthBlockFirst{
+    margin-bottom: 2.4%;
+}
+
+  footer {
+    background: #E1C189;
+  }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 64px;
+    padding-bottom: 71px;
+  }
+  footer .container .contactInfo {
+    display: block;
+    margin-bottom: 7.1%;
+  }
+  footer .container .icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  footer .container .icons img {
+    display: block;
+    margin-right: 9%;
+  }
+  footer .container .icons .first {
+    margin-right: 3%;
+  }
+  footer .container .icons .last {
+    margin-right: 0;
+  }
+
+  footer a{
+    display: block;
+    margin-right: 9%;
+}
+
+footer .first{
+  margin-right: 3%;
+}
+
+footer .last{
+  margin-right: 0;
+}
+
+  @media screen and (max-width: 1300px) {
+    .container {
+      width: 90%;
+    }
+    header {
+      width: 90%;
+    }
+
+    .examples img{
+        width: 32%;
+    }
+  }
+
+  @media screen and (max-width: 1200px) {
+    header nav ul {
+      font-size: 16px;
+    }
+    
+    header .phone #phone {
+      font-size: 17px;
+    }
+
+    .step1and2, .step3and4{
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .step, .step2, .step4{
+        margin: 0 auto 3%;
+        width: 60%;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    h1 {
+        font-size: 42px;
+      }
+
+      h2 {
+        font-size: 36px;
+      }
+
+      p {
+        font-size: 20px;
+      }
+
+      
+      header nav ul #first {
+        margin-left: 0; 
+      }
+
+      header nav {
+        width: 54%;
+      }
+
+      header nav ul {
+        font-size: 14px;
+      }
+
+      header .phone #phone {
+        font-size: 15px;
+      }
+
+      .secondBlockText {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .examples {
+        flex-direction: column;
+    }
+
+    .examples img{
+        width: 70%;
+        margin: 0 auto 5%;
+    }
+
+    .thirdBlock button, .thirdBlock form{
+        margin-top: 0;
+    }
+
+    .fifthBlockFirst, .fifthBlockSecond{
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .firstInput, .secondInput, .thirdInput{
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .fourthInput, .fifthBlock button{
+        width: 100%;
+    }
+   
+  }
+
+  @media screen and (max-width: 768px) {
+
+    h1{
+        font-size: 40px;
+        line-height: 42px;
+      }
+
+      h2{
+        font-size: 34px;
+        line-height: 36px;
+      }
+
+      header .phone {
+        display: none;
+      }
+      
+      .menu-open{
+        display: block;
+      }
+      
+      nav {
+        display: none;
+      } 
+      
+      .menu-open{
+        width: 5.8%;
+      }
+      
+      .menu-open img{
+        width: 100%;
+      }
+      
+      header .logo img {
+        width: 100%;
+      }
+      
+      header .logo{
+        width: 30%;
+      }
+
+      .firstBlockText{
+          width: 90%;
+          margin-bottom: 10%;
+      }
+
+      button{
+          width: 400px;
+          height: 60px;
+          font-size: 22px;
+      }
+
+      .secondBlock, .fourthBlock{
+          background: #E1C189;
+      }
+
+      .fourthBlock img{
+        width: 65px;
+        height: 65px;
+      }
+
+      .step, .step2, .step4{
+        width: 80%;
+    }
+
+      .step p {
+        margin-left: 20px;
+    }
+
+      footer .container {
+        flex-direction: column;
+      }
+
+      footer .contactInfo{
+        font-size: 22px;
+      }
+
+      .footerLeft,
+      .footerRight {
+        margin: auto;
+        margin-bottom: 5%;
+      }
+
+      footer .container .contactInfo {
+        display: block;
+        margin-bottom: 3%;
+        text-align: center;
+     }
+      footer .container {
+        padding-top: 25px;
+        padding-bottom: 80px;
+      }
+
+      footer .container .icons {
+        justify-content: space-evenly;
+    }
+  }
+
+  @media screen and (max-width: 576px) {
+
+
+    button{
+        width: 300px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+      }
+
+    h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+      p {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      header{
+        padding-top: 30px;
+      }
+    
+      .menu-open{
+        display: block;
+        width: 7%;
+      }
+    
+    header .show-menu ul li{
+      font-size: 28px;
+      margin-bottom: 15px;
+      font-weight: 525;
+    }
+      .fourthBlock img{
+        width: 55px;
+        height: 55px;
+      }
+      .step p {
+        margin-left: 15px;
+    }
+
+    .step, .step2, .step4 {
+      width: 95%;
+    }
+  }
+
+  @media screen and (max-width: 420px) {
+
+    h1 {
+        font-size: 24px;
+        line-height: 30px;
+      }
+      h2 {
+        font-size: 20px;
+        line-height: 25px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 18px;
+      }
+
+      .menu-open{
+        display: block;
+        width: 7%;
+      }
+    
+      header .logo{
+        width: 40%;
+      }
+    
+    header .show-menu ul li{
+      font-size: 20px;
+      margin-bottom: 7px;
+      font-weight: 500;
+    }
+    
+    header .show-menu ul {
+      padding-top: 30%;
+      padding-bottom: 30%;
+    }
+
+      button {
+        width: 250px;
+        font-size: 16px;
+        height: 35px;
+        margin-bottom: 13%;
+        margin-top: 6.5%;
+      }
+
+      .firstBlockText h1 {
+        margin-bottom: 4%;
+    }
+
+    .secondBlock .container {
+        padding-top: 7.5%;
+        padding-bottom: 9.5%;
+    }
+
+    .thirdBlock h2 {
+        margin: 8.3% auto 5.2%;
+    }
+
+    .fourthBlock img{
+        width: 40px;
+        height: 40px;
+      }
+
+      .fourthBlock .container {
+        padding-top: 7.5%;
+        padding-bottom: 9.5%;
+    }
+
+    .step p {
+      margin-left: 10px;
+    }
+
+    .fifthBlock {
+        padding-top: 7.3%;
+    }
+
+    input{
+        height: 30px;
+    }
+
+    footer .container .contactInfo{
+        font-size: 18px;
+        margin-bottom: 6%;
+    }
+
+  }
