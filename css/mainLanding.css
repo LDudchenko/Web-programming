@@ -280,7 +280,7 @@ header .show-menu ul {
   padding-bottom: 78px;
 }
 .fifthBlock .container {
-  background-image: url("../img/Background\ \(1\).svg");
+  background-image: url("../img/fifthBlockBackground.svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -453,7 +453,7 @@ margin-right: 0;
   }
 
   .fifthBlock .container {
-    background-image: url("../img/fifthBlockBackground.svg");
+    background-image: url("../img/firstBlockBackground\(992-1200\).jpg");
   }
 
   .fifthBlock .fifthBlockUpper {
