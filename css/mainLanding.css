@@ -451,6 +451,10 @@ margin-right: 0;
   .fifthBlock {
     background: #FFFCEA;
   }
+  
+   .fifthBlock .container {
+    background-image: url("../img/fifthBlockBackground\(992-1200\).svg");
+  }
 
   .fifthBlock .fifthBlockUpper {
     margin-bottom: 7.5%;
