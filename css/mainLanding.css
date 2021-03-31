@@ -452,9 +452,9 @@ margin-right: 0;
     background: #FFFCEA;
   }
   
-   .fifthBlock .container {
+   /*.fifthBlock .container {
     background-image: url("../img/fifthBlockBackground\(992-1200\).svg");
-  }
+  }*/
 
   .fifthBlock .fifthBlockUpper {
     margin-bottom: 7.5%;
