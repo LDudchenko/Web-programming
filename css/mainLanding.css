@@ -280,7 +280,7 @@ header .show-menu ul {
   padding-bottom: 78px;
 }
 .fifthBlock .container {
-  background-image: url("../img/fifthBlockBackground.svg");
+  background-image: url("../img/Background\ \(1\).svg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -296,10 +296,19 @@ header .show-menu ul {
 .fifthBlock .fifthBlockUpper {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 5.9%;
+  margin-bottom: 4%;
 }
+
+.fifthBlock .fifthBlockUpper  h1,  .fifthBlock .fifthBlockLower h1{
+  font-size: 40px;
+}
+
+.fifthBlock .fifthBlockUpper .makeYourPhotosBetter button, .fifthBlock .fifthBlockUpper .makeYourPhotosBetter p{
+  width: 90%;
+}
+
 .fifthBlock .fifthBlockUpper h1 {
-  margin-bottom: 8.9%;
+  margin-bottom: 6%;
 }
 .fifthBlock .fifthBlockUpper .fifthBlockImageAndText {
   max-width: 311px;
@@ -310,9 +319,10 @@ header .show-menu ul {
 }
 .fifthBlock .fifthBlockUpper .fifthBlockImageAndText p {
   text-align: center;
+  margin-bottom: 0;
 }
 .fifthBlock .fifthBlockUpper p {
-  margin-bottom: 8.3%;
+  margin-bottom: 5.5%;
 }
 .fifthBlock .makeYourPhotosBetter {
   width: 49%;
@@ -441,9 +451,22 @@ margin-right: 0;
   .fifthBlock {
     background: #FFFCEA;
   }
+
+  .fifthBlock .container {
+    background-image: url("../img/fifthBlockBackground.svg");
+  }
+
+  .fifthBlock .fifthBlockUpper {
+    margin-bottom: 7.5%;
+  }
+
   .fifthBlock .fifthBlockUpper h1,
   .fifthBlockLower h1 {
     font-size: 40px;
+  }
+
+  .fifthBlock .fifthBlockUpper .makeYourPhotosBetter button, .fifthBlock .fifthBlockUpper .makeYourPhotosBetter p{
+    width: 100%;
   }
 }
 @media screen and (max-width: 992px) {
